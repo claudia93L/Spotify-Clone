@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page|Spotify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="container bg-black">
+    <div
+    class="row-container track-management mb-2 d-flex flex-row justify-content-between align-items-center mt-5">
+    <div class="track-control-icons mx-3">
+        <a href="index.html">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+            class="bi bi-caret-left border border-black border-3 bg-white rounded-circle">
+            <path
+              d="M12,0A12,12,0,1,0,24,12,12.01,12.01,0,0,0,12,0Zm2.64,16.232a1,1,0,1,1-1.28,1.536l-6-5a1,1,0,0,1,0-1.536l6-5a1,1,0,1,1,1.28,1.536L9.562,12Z" />
+          </svg>
+        </a>
+        <a href="#" class="mx-3">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+            class="bi bi-caret-right border border-black border-3 bg-dark rounded-circle">
+            <path
+              d="M12,0A12,12,0,1,0,24,12,12.01,12.01,0,0,0,12,0Zm4.641,12.768-6,5a1,1,0,1,1-1.282-1.536L14.437,12,9.359,7.768a1,1,0,1,1,1.282-1.536l6,5a1,1,0,0,1,0,1.536Z" />
+          </svg></a>
+      </div>
+    <div class="d-flex">
+        <input type="text"  class="form-control px-3 me-2" id="ricerca" placeholder="Cerca artista o canzone">
+        <button type="button" onclick="getSearch()" class="btn text-white border-white">Cerca</button>
+    </div>
+    <div
+        class="profile d-flex flex-row align-items-center rounded-5 text-white justify-content-between pe-2 py-1">
+        <div class="left d-flex flex-row align-items-center">
+                <div class="dropdown">
+                  <button
+                    class="btn bg-black dropdown-toggle left d-flex flex-row align-items-center rounded-5 text-white"
+                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="me-2" src="assets/imgs/profile-icon.jpg" alt="Foto profilo" />
+                    <h6 class="mb-0 me-3">Marco Rossi</h6>
+                  </button>
+                  <ul class="dropdown-menu bg-black">
+                    <li>
+                      <a class="dropdown-item text-white" href="#">Profilo</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="#">Impostazioni</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="#">Sign out</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    </div>
+</div>
+
+<div class="container mt-5" id="searchArea">
+    <div class="row mt-5 d-flex justify-content-around">
+        
+            
+                <div class="col-2 hover"> <img src="assets/imgs/Screenshot 2023-12-19 101435.png"class="rounded-4 w-100"> </div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101452.png" class="rounded-4 w-100"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101506.png" class="rounded-4 w-100"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101515.png" class="rounded-4 w-100"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101523.png" class="rounded-4 w-100"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101533.png" class="rounded-4 w-100"></div>
+          
+        </div>
+        <div class="row mt-4 d-flex justify-content-around">
+            
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101546.png" class="rounded-4 w-100"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101603.png" class="rounded-4 w-100"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101616.png" class="rounded-4 w-100"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101625.png" class="rounded-4 w-100" style="max-height: 195px;"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101632.png" class="rounded-4 w-100"></div>
+                <div class="col-2 hover"><img src="assets/imgs/Screenshot 2023-12-19 101641.png" class="rounded-4 w-100"></div>
+            
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+
+<script src="assets/js/search.js"></script>
+</body>
+</html>
