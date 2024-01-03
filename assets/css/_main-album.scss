@@ -1,0 +1,114 @@
+@import 'variables';
+
+#tabello,
+#border-footer {
+  background-color: transparent;
+
+  th,
+  td {
+    color: $primary-color;
+    background-color: transparent;
+  }
+}
+
+#margine {
+  display: flex;
+  align-items: center;
+}
+
+#playIcon {
+  width: 53px;
+  height: 50px;
+}
+
+/* 
+#play,
+.volume-fill::before,
+input[type='range'] {
+  width: 100%;
+  background: transparent;
+  -webkit-appearance: none;
+  outline: none;
+
+  &::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: $highlight-color;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+}
+
+.volume-bar,
+.play-bar {
+  overflow: hidden;
+  border-radius: 4px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    opacity: 0.5;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: $highlight-color;
+    height: 100%;
+  }
+}
+
+.volume-fill,
+.play-fill {
+  position: absolute;
+  background-color: $highlight-color;
+  left: 0;
+
+  &::before {
+    position: absolute;
+    background-color: $highlight-color;
+  }
+}
+
+.volume-bar {
+  position: relative;
+  width: 200px;
+  height: 8px;
+  background-color: black;
+}
+
+.volume-fill {
+  transition: width 0s;
+  z-index: 1;
+}
+
+#pallino::-webkit-slider-thumb {
+  @extend %slider-thumb;
+  width: 5px !important;
+  height: 20px !important;
+  border-radius: 0px;
+  background: $highlight-color;
+}
+
+.play-fill {
+  margin-top: 8px;
+  height: 20%;
+}
+
+%slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: $highlight-color;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+ */

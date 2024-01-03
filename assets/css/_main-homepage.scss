@@ -1,0 +1,60 @@
+@import 'variables';
+
+.dropdown-item {
+  &:hover {
+    background-color: $accent-color;
+  }
+}
+
+.col-7 {
+  background-color: $secondary-color;
+}
+
+#container-track {
+  background: linear-gradient(40deg, rgba(0, 0, 0, 1) 2%, $secondary-color 75%);
+}
+
+.track-management {
+  i {
+    font-size: 2.5em;
+    color: $icon-background-color;
+
+    &.profile {
+      font-size: 1.2em;
+    }
+  }
+
+  .profile {
+    width: 20%;
+
+    img {
+      width: 25px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.personal-container {
+  .square-gradient {
+    color: $icon-background-color;
+  }
+}
+
+.hide-ads {
+  background-color: $icon-text-color;
+}
+
+.card-section-1 {
+  .card {
+    width: 30%;
+  }
+}
+
+/* ::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+
+  &-thumb {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+} */

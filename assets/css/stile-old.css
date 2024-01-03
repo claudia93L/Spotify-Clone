@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0.8em;
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* GENERAL */
+
+a,
+.track-management .profile i {
+  color: #fff;
+}
+
+.squared-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+/* ASIDE NAVBAR */
+
+.personal-container .square-gray {
+  background-color: #b3b3b3;
+  color: #2c2c2c;
+}
+
+.personal-container .square-gradient {
+  background: rgb(59, 28, 167);
+  background: linear-gradient(
+    156deg,
+    rgba(59, 28, 167, 1) 39%,
+    rgba(179, 179, 179, 1) 99%
+  );
+}
+
+.personal-container .square-green {
+  color: #129643;
+  background-color: #004537;
+}
+
+.personal-container h3,
+nav h3 {
+  font-size: 1.2em;
+}
+
+.friends {
+  font-size: 12px;
+}
+
+.friends {
+  font-size: 12px;
+}
+
+/* MAIN */
+
+.dropdown-item:hover {
+  background-color: #129643;
+}
+
+.col-7 {
+  background-color: #202020;
+}
+
+#container-track {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    40deg,
+    rgba(0, 0, 0, 1) 2%,
+    rgba(32, 32, 32, 1) 75%
+  );
+}
+
+.track-management i {
+  font-size: 2.5em;
+}
+
+.track-management i,
+.personal-container .square-gradient {
+  color: #b3b3b3;
+}
+
+.track-management .profile img {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.track-management .profile {
+  width: 20%;
+}
+
+.track-management .profile i {
+  font-size: 1.2em;
+}
+
+.hide-ads {
+  background-color: #2c2c2c;
+}
+
+.card-section-1 .card {
+  width: 30%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/* ASIDE FRIENDS */
+
+/* FOOTER */
+
+#border-footer {
+  border: none;
+  max-width: 400px;
+  max-height: 70px;
+}
+footer {
+  height: 100px;
+}
+
+/* main pagina album*/
+#tabello,
+#tabello thead th,
+#tabello tbody td,
+#border-footer {
+  background-color: transparent;
+}
+
+#tabello th,
+#tabello td {
+  color: white;
+}
+
+#margine {
+  display: flex;
+  align-items: center;
+}
+#playIcon {
+  width: 53px;
+  height: 50px;
+}
+
+#play,
+.volume-fill::before,
+input[type='range'] {
+  width: 100%;
+}
+
+.play-bar,
+.volume-bar {
+  position: relative;
+}
+
+.volume-fill,
+.volume-fill::before,
+.play-fill {
+  position: absolute;
+}
+
+.volume-bar,
+.play-bar {
+  overflow: hidden;
+}
+
+.volume-fill,
+.volume-fill::before,
+.play-fill {
+  background-color: #1db954;
+  left: 0;
+}
+
+.volume-fill,
+.volume-fill::before {
+  height: 100%;
+  top: 0;
+}
+
+.volume-bar {
+  width: 200px;
+  height: 8px;
+  background-color: black;
+}
+
+.volume-fill {
+  transition: width 0s;
+  z-index: 1;
+}
+
+.volume-fill::before {
+  content: '';
+  opacity: 0.5;
+  z-index: 0;
+}
+
+input[type='range'] {
+  height: 8px;
+  background: transparent;
+  z-index: 2;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #1db954;
+  transition: background-color 0.3s ease-in-out;
+}
+input[type='range'],
+input[type='range']::-webkit-slider-thumb,
+input[type='range']::-webkit-slider-thumb:hover,
+#pallino::-webkit-slider-thumb,
+#play {
+  -webkit-appearance: none;
+}
+
+#pallino::-webkit-slider-thumb {
+  width: 5px !important;
+  height: 20px !important;
+  border-radius: 0px;
+  background: #1db954;
+}
+
+#pallino::-webkit-slider-thumb,
+input[type='range']::-webkit-slider-thumb {
+  cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+  background-color: #168f3f;
+}
+
+.play-bar,
+.volume-bar {
+  border-radius: 4px;
+}
+
+.play-fill {
+  margin-top: 8px;
+  height: 20%;
+}
+
+#play {
+  height: 8px;
+  background: transparent;
+}
+
+#play,
+input[type='range'] {
+  outline: none;
+}
+
+/* MAIN ARTISTS */
+
+.banner-img {
+  text-shadow: #000 1px 0 10px;
+}

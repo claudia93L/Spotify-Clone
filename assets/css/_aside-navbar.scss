@@ -1,0 +1,36 @@
+@import 'variables';
+
+.personal-container {
+  .square-gray {
+    background-color: $icon-background-color;
+    color: $icon-text-color;
+  }
+
+  .square-gradient {
+    background: rgb(59, 28, 167);
+    background: linear-gradient(
+      156deg,
+      rgba(59, 28, 167, 1) 39%,
+      rgba(179, 179, 179, 1) 99%
+    );
+  }
+
+  .square-green {
+    color: $accent-color;
+    background-color: $tertiary-color;
+  }
+
+  h3 {
+    font-size: $h3-font-size;
+  }
+}
+
+nav {
+  h3 {
+    font-size: $h3-font-size;
+  }
+}
+
+.friends {
+  font-size: $paragraph-font-size;
+}
